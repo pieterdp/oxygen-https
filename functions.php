@@ -2,11 +2,13 @@
 /**
  * @package Oxygen
  * @subpackage Functions
- * @version 0.5.7
+ * @version 1.6.0
  * @author AlienWP
  * @author Justin Tadlock <justin@justintadlock.com>
+ * @author Pieter De Praetere <pieter.de.praetere@helptux.be>
  * @link http://alienwp.com
  * @link http://justintadlock.com
+ * @link https://www.helptux.be
  * @license http://www.gnu.org/licenses/gpl-2.0.html
  */
 
