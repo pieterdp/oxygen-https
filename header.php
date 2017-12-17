@@ -36,7 +36,7 @@ if ( ! function_exists( '_wp_render_title_tag' ) ) {
 }
 ?>
 	
-	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	
 	<!-- WP Head -->

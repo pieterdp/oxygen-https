@@ -291,25 +291,25 @@ function oxygen_google_fonts() {
 		
 		switch ( get_theme_mod( 'oxygen_font_family' ) ) {
 			case 'Abel':
-				wp_enqueue_style( 'font-abel', 'http://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-abel', 'https://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
 				break;
 			case 'Oswald':
-				wp_enqueue_style( 'font-oswald', 'http://fonts.googleapis.com/css?family=Oswald', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-oswald', 'https://fonts.googleapis.com/css?family=Oswald', false, 1.0, 'screen' );
 				break;
 			case 'Terminal Dosis':
-				wp_enqueue_style( 'font-terminal-dosis', 'http://fonts.googleapis.com/css?family=Terminal+Dosis', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-terminal-dosis', 'https://fonts.googleapis.com/css?family=Terminal+Dosis', false, 1.0, 'screen' );
 				break;
 			case 'Droid Serif':
-				wp_enqueue_style( 'font-droid-serif', 'http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-droid-serif', 'https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic', false, 1.0, 'screen' );
 				break;			
 			case 'Istok Web':
-				wp_enqueue_style( 'font-istok-web', 'http://fonts.googleapis.com/css?family=Istok+Web', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-istok-web', 'https://fonts.googleapis.com/css?family=Istok+Web', false, 1.0, 'screen' );
 				break;
 			case 'Droid Sans':
-				wp_enqueue_style( 'font-droid-sans', 'http://fonts.googleapis.com/css?family=Droid+Sans', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-droid-sans', 'https://fonts.googleapis.com/css?family=Droid+Sans', false, 1.0, 'screen' );
 				break;				
 			case 'Bitter':
-				wp_enqueue_style( 'font-bitter', 'http://fonts.googleapis.com/css?family=Bitter', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-bitter', 'https://fonts.googleapis.com/css?family=Bitter', false, 1.0, 'screen' );
 				break;			
 		}
 
@@ -317,29 +317,29 @@ function oxygen_google_fonts() {
 
 		switch ( hybrid_get_setting( 'oxygen_font_family' ) ) {
 			case 'Abel':
-				wp_enqueue_style( 'font-abel', 'http://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-abel', 'https://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
 				break;
 			case 'Oswald':
-				wp_enqueue_style( 'font-oswald', 'http://fonts.googleapis.com/css?family=Oswald', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-oswald', 'https://fonts.googleapis.com/css?family=Oswald', false, 1.0, 'screen' );
 				break;
 			case 'Terminal Dosis':
-				wp_enqueue_style( 'font-terminal-dosis', 'http://fonts.googleapis.com/css?family=Terminal+Dosis', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-terminal-dosis', 'https://fonts.googleapis.com/css?family=Terminal+Dosis', false, 1.0, 'screen' );
 				break;
 			case 'Droid Serif':
-				wp_enqueue_style( 'font-droid-serif', 'http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-droid-serif', 'https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic', false, 1.0, 'screen' );
 				break;			
 			case 'Istok Web':
-				wp_enqueue_style( 'font-istok-web', 'http://fonts.googleapis.com/css?family=Istok+Web', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-istok-web', 'https://fonts.googleapis.com/css?family=Istok+Web', false, 1.0, 'screen' );
 				break;
 			case 'Droid Sans':
-				wp_enqueue_style( 'font-droid-sans', 'http://fonts.googleapis.com/css?family=Droid+Sans', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-droid-sans', 'https://fonts.googleapis.com/css?family=Droid+Sans', false, 1.0, 'screen' );
 				break;				
 			case 'Bitter':
-				wp_enqueue_style( 'font-bitter', 'http://fonts.googleapis.com/css?family=Bitter', false, 1.0, 'screen' );
+				wp_enqueue_style( 'font-bitter', 'https://fonts.googleapis.com/css?family=Bitter', false, 1.0, 'screen' );
 				break;
 		}
 	} else {
-		wp_enqueue_style( 'font-abel', 'http://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
+		wp_enqueue_style( 'font-abel', 'https://fonts.googleapis.com/css?family=Abel', false, 1.0, 'screen' );
 	}	
 }
 
